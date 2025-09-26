@@ -4,8 +4,8 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx eleventy --serve",
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
     "lint": "prettier --write ."
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "concurrently": "^9.2.1",
     "gulp": "^5.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^6.0.1",

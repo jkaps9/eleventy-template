@@ -39,13 +39,13 @@
     >
       {{ content | safe }}
     </div>
-	    {% if recommendedPosts %}
-  <footer class="recommended-posts">
-    {% set postListItems = recommendedPosts %}
-    {% set postListHeadline = 'More from the blog' %}
-    {% include "partials/post-list.html" %}
-  </footer>
-{% endif %}
+    {% if recommendedPosts %}
+      <footer class="recommended-posts">
+        {% set postListItems = recommendedPosts %}
+        {% set postListHeadline = 'More from the blog' %}
+        {% include "partials/post-list.html" %}
+      </footer>
+    {% endif %}
   </article>
 
   {% include "partials/cta.html" %}

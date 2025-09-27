@@ -5,7 +5,6 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "build": "NODE_ENV=production npx eleventy",
     "lint": "prettier --write ."
   },
   "keywords": [],

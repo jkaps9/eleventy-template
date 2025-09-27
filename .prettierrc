@@ -1,19 +1,15 @@
 {
+  "printWidth": 80,
+  "htmlWhitespaceSensitivity": "ignore",
+  "bracketSameLine": false,
+  "singleAttributePerLine": true,
+
   "plugins": ["prettier-plugin-jinja-template"],
   "overrides": [
     {
-      "files": ["*.html", "*.njk", "*.nunjucks"],
+      "files": "*.html",
       "options": {
-        "parser": "jinja-template",
-        "printWidth": 80,
-        "tabWidth": 2,
-        "useTabs": false,
-        "singleQuote": false,
-        "bracketSameLine": false,
-        "htmlWhitespaceSensitivity": "ignore",
-        "jinjaFormattingOptions": {
-          "indentHandlebars": true
-        }
+        "parser": "jinja-template"
       }
     }
   ]

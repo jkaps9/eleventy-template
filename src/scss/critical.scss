@@ -1,21 +1,15 @@
-// First up: config and functions
-@use 'config';
-
-// Next: pull in gorko for design tokens
-@use '../../node_modules/gorko/gorko.scss';
-
-@use "reset";
+@import "reset";
 
 // Import blocks
-@use "blocks/definition-group";
-@use "blocks/tags-list";
+@import "blocks/definition-group";
+@import "blocks/tags-list";
 
 // Import utilities
-@use "utilities/dot-shadow";
-@use "utilities/flow";
-@use "utilities/frame";
-@use "utilities/panel";
-@use "utilities/radius";
-@use "utilities/site-wrap";
-@use "utilities/visually-hidden";
-@use "utilities/wrapper";
+@import "utilities/dot-shadow";
+@import "utilities/flow";
+@import "utilities/frame";
+@import "utilities/panel";
+@import "utilities/radius";
+@import "utilities/site-wrap";
+@import "utilities/visually-hidden";
+@import "utilities/wrapper";

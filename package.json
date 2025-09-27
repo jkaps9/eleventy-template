@@ -4,8 +4,7 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
-    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
+    "start": "npx eleventy --serve",
     "lint": "prettier --write ."
   },
   "keywords": [],

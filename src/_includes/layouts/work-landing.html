@@ -10,10 +10,7 @@
       <article class="[ gallery ] [ flow flow-space-800 ]">
         {% for item in collections.work %}
           <figure class="[ gallery__item ] [ flow ]">
-            <div
-              class="[ gallery__media ] [ frame ]"
-              data-frame="primary"
-            >
+            <div class="[ gallery__media ] [ frame ]" data-frame="primary">
               <img
                 class="radius"
                 src="{{ item.data.hero.image }}"
@@ -27,12 +24,7 @@
               <p class="[ gallery__summary ] [ measure-short flow-space-300 ]">
                 {{ item.data.summary }}
               </p>
-              <a
-                href="{{ item.url }}"
-                class="button"
-              >
-                See this work
-              </a>
+              <a href="{{ item.url }}" class="button">See this work</a>
             </figcaption>
           </figure>
         {% endfor %}

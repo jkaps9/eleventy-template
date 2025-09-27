@@ -7,10 +7,7 @@
         <div
           class="[ hero__content ] [ dot-shadow radius flow ] [ bg-dark-shade color-light flow-space-400 ]"
         >
-          <h1
-            class="[ headline ] [ measure-compact ]"
-            data-highlight="quinary"
-          >
+          <h1 class="[ headline ] [ measure-compact ]" data-highlight="quinary">
             {{ title }}
           </h1>
           <p class="measure-short">{{ summary }}</p>
@@ -26,12 +23,7 @@
       class="[ key-facts ] [ panel dot-shadow ] [ bg-primary-shade color-light ]"
     >
       <div class="wrapper flow">
-        <h2
-          class="headline"
-          data-highlight="secondary"
-        >
-          Key facts
-        </h2>
+        <h2 class="headline" data-highlight="secondary">Key facts</h2>
         <div class="leading-flat font-sans weight-bold flow-space-700">
           <ol class="[ key-facts__list ] [ auto-grid ]">
             {% for item in keyFacts %}
@@ -50,10 +42,7 @@
       <article class="[ gallery ] [ flow flow-space-800 ]">
         {% for item in gallery %}
           <figure class="[ gallery__item ] [ flow ]">
-            <div
-              class="[ gallery__media ] [ frame ]"
-              data-frame="primary"
-            >
+            <div class="[ gallery__media ] [ frame ]" data-frame="primary">
               <img
                 src="{{ item.image }}"
                 alt=""

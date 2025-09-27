@@ -16,7 +16,12 @@
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "moment": "^2.30.1"
+    "concurrently": "^9.2.1",
+    "gulp": "^5.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^6.0.1",
+    "moment": "^2.30.1",
+    "sass": "^1.93.2"
   },
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0"

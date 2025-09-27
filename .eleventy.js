@@ -1,4 +1,4 @@
-const rssPlugin = require("@11ty/eleventy-plugin-rss");
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -14,8 +14,8 @@ module.exports = (config) => {
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy("./src/images/");
 
-  // Plugins
-  config.addPlugin(rssPlugin);
+// Plugins
+config.addPlugin(rssPlugin);
 
   // Returns work items, sorted by display order
   config.addCollection("work", (collection) => {

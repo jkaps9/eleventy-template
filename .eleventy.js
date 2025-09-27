@@ -9,7 +9,7 @@ const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 
 module.exports = (config) => {
-  eleventyConfig.addTemplateFormats("scss");
+  config.addTemplateFormats("scss");
 
   // Add filters
   config.addFilter("dateFilter", dateFilter);

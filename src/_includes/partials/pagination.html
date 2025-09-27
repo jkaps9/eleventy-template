@@ -7,7 +7,10 @@
     class="[ pagination ] [ dot-shadow panel ] [ bg-light-glare font-sans weight-bold ]"
   >
     <div class="wrapper">
-      <nav class="pagination__inner" aria-label="Pagination links">
+      <nav
+        class="pagination__inner"
+        aria-label="Pagination links"
+      >
         {% if pagination.href.previous %}
           <a
             href="{{ pagination.href.previous }}{{ paginationAnchor }}"

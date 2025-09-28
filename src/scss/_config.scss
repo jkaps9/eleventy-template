@@ -1,0 +1,54 @@
+/**
+ * BASE SIZE
+ * All calculations are based on this. It’s recommended that
+ * you keep it at 1rem because that is the root font size. You
+ * can set it to whatever you like and whatever unit you like.
+ */
+$base-size: 1rem;
+
+/**
+ * SIZE SCALE
+ * This is a Perfect Fourth scale that powers all the utilities that
+ * it is relevant for (font-size, margin, padding). All items are
+ * calcuated off the base size, so change that and cascade across
+ * your whole project.
+ */
+$size-scale: (
+  "300": $base-size * 0.75,
+  "400": $base-size,
+  "500": $base-size * 1.33,
+  "600": $base-size * 1.77,
+  "700": $base-size * 2.36,
+  "800": $base-size * 3.15,
+  "900": $base-size * 4.2,
+  "major": $base-size * 5.6,
+);
+
+/**
+ * COLORS
+ * Colors are shared between backgrounds and text by default. 
+ * You can also use them to power borders, fills or shadows, for example.
+ */
+$colors: (
+  "dark": #38445b,
+  "dark-shade": #263147,
+  "dark-glare": #505c73,
+  "light": #f9f4e3,
+  "light-shade": #fff6d7,
+  "light-glare": #fdfbf3,
+  "primary": #513aa6,
+  "primary-shade": #432e92,
+  "primary-glare": #654ac9,
+  "secondary": #6ac2b6,
+  "secondary-shade": #35a495,
+  "secondary-glare": #98e2d8,
+  "tertiary": #ffd490,
+  "tertiary-shade": #ffca77,
+  "tertiary-glare": #ffdeaa,
+  "quaternary": #ff7f5c,
+  "quaternary-shade": #f96841,
+  "quaternary-glare": #fe9476,
+  "quinary": #fa576e,
+  "quinary-shade": #fc3e59,
+  "quinary-glare": #f26c7f,
+);
